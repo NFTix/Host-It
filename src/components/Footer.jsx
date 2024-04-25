@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col gap-8 bg-black" id="footer">
       <div className="relative lg:px-20">
-        <div className="container mx-auto flex justify-evenly py-20">
+        <div className="container mx-auto flex justify-evenly lg:flex-row md:flex-row flex-col py-20 gap-[3rem]">
           {FooterUtils.map((item, index) => (
             <div className="w-32 flex flex-col gap-5" key={index}>
               <h1 className="text-2xl bg-clip-text text-transparent bg-gradient-to-r from-[#ffadd5c5] via-[#ade2ffc7] to-[#e16affb9]">

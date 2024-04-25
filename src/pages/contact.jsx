@@ -4,9 +4,9 @@ import { Socials } from "../components/Home/Socials";
 
 const Contact = () => {
   return (
-    <div className="relative container mx-auto flex justify-between">
+    <div className="relative container mx-auto flex justify-between flex-col lg:flex-row md:flex-row gap-[4rem]">
       <div className="basis-1/2 flex flex-col gap-8 pr-20">
-        <h1 className="text-6xl text-white">
+        <h1 className="lg:text-6xl md:text-6xl text-4xl text-white">
           Stay updated with our latest product releases
         </h1>
         <p className="text-2xl bg-clip-text text-transparent bg-gradient-to-r from-[#ffadd5c5] via-[#ade2ffc7] to-[#e16affb9]">
@@ -31,7 +31,7 @@ const Contact = () => {
           </p>
         </button>
       </div>
-      <div className="absolute inset-0 rounded-3xl h-48 w-[1.6px] mx-auto bg-gradient-to-b from-[#ffadd5c5] via-[#ade2ffc7] to-[#e16affb9]"></div>
+      <div className="lg:block md:block hidden absolute inset-0 rounded-3xl h-48 w-[1.6px] mx-auto bg-gradient-to-b from-[#ffadd5c5] via-[#ade2ffc7] to-[#e16affb9]"></div>
     </div>
   );
 };

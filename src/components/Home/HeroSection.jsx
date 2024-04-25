@@ -14,11 +14,11 @@ export const HeroSection = () => {
         <div className="w-[580px] flex flex-col gap-4">
           <h1 className="font-hanken text-4xl font-light leading-snug text-neutral-100">
             Explore and interact in the most{" "}
-            <span className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-spi-pink via-spi-blue to-spi-purple">
+            <span className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-spi-pink via-spi-blue to-spi-purple font-sans">
               promising blockchain projects
             </span>{" "}
             and say{" "}
-            <span className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-spi-pink via-spi-blue to-spi-purple">
+            <span className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-spi-pink via-spi-blue to-spi-purple font-sans">
               goodbye to gas fees
             </span>{" "}
             slowing you down
@@ -29,17 +29,17 @@ export const HeroSection = () => {
             gasless swap of tokens without any hassle!
           </div>
           <div className="flex gap-5 mt-5">
-            <button className="px-8 py-2 rounded-xl bg-gradient-to-r from-spi-pink-2 hover:from-spi-pink-1 via-spi-blue-2 hover:via-spi-blue-1 to-spi-purple-2 hover:to-spi-purple-1 text-neutral-100 font-semibold">
+            <button className="lg:px-8 md:px-8 lg:py-2  px-2 rounded-xl bg-gradient-to-r from-spi-pink-2 hover:from-spi-pink-1 via-spi-blue-2 hover:via-spi-blue-1 to-spi-purple-2 hover:to-spi-purple-1 text-neutral-100 font-semibold">
               Explore NFTix
             </button>
             <button className="p-[2px] rounded-xl bg-gradient-to-r from-spi-pink-2 via-spi-blue-2 to-spi-purple-2 text-neutral-100 font-semibold">
-              <p className="bg-black rounded-xl w-full h-full px-8 py-2 hover:bg-neutral-800 ${props.className">
+              <p className="bg-black rounded-xl w-full h-full px-8 py-2 hover:bg-neutral-800">
                 Create Event
               </p>
             </button>
           </div>
         </div>
-        <div className="relative w-1/2 2xl:h-[500px]">
+        <div className="lg:block md:block hidden relative w-1/2 2xl:h-[500px]">
           <img src={hero} alt="hero" className="absolute inset-0" />
         </div>
       </div>

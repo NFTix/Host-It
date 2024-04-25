@@ -11,8 +11,8 @@ export const NavUtil = [
   },
   {
     id: 3,
-    url: "/Contact",
-    text: "Contact",
+    url: "/dashboard",
+    text: "Dashboard",
   },
   {
     id: 4,

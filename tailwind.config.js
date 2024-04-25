@@ -31,9 +31,6 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "contact-img": "url('./asset/contact.png')",
-        "pad-hero": "url('./asset/dynamic-2-img.svg')",
-        "create-hero": "url('./asset/dynamic-img.svg')",
       },
 
       colors: {
@@ -54,6 +51,7 @@ module.exports = {
         "b-pink": "#ffadd59d",
         "b-blue": "#ade2ff9a",
         "b-purple": "#e16affb9",
+        primaryColor: "#ff7324",
         white: "#fff",
         white: "#efe3facc",
         black: "#000",
