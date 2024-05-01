@@ -1,12 +1,12 @@
 import { createWeb3Modal, defaultConfig } from "@web3modal/ethers/react";
 
-export const SUPPORTED_CHAIN = 11155420;
+export const SUPPORTED_CHAIN = 11155111;
 
-const opSepolia = {
+const sepolia = {
     chainId: SUPPORTED_CHAIN,
-    name: "OP Sepolia",
+    name: "Sepolia",
     currency: "ETH",
-    explorerUrl: "https://sepolia-optimistic.etherscan.io/",
+    explorerUrl: "https://sepolia.etherscan.io/",
     rpcUrl: process.env.REACT_APP_RPC_URL,
 };
 
@@ -20,7 +20,7 @@ const metadata = {
 export const configureWeb3Modal = () =>
     createWeb3Modal({
         ethersConfig: defaultConfig({ metadata }),
-        chains: [opSepolia],
+        chains: [sepolia],
         projectId: process.env.REACT_APP_Project_Id,
         enableAnalytics: false, // Optional - defaults to your Cloud configuration
     });
