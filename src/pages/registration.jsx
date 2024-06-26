@@ -77,7 +77,7 @@ const Resigtration = () => {
           <form  onSubmit={handleSubmit}>
             
             <div>
-              <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ENS Name</label>
+              <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
               <input type="email"
                 id="first_name"
                 value={ensName}
